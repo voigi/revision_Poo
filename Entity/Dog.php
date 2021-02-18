@@ -10,9 +10,10 @@ class Dog
 
 	private $age;
 
+	
 	/**
 	 * Get the value of id
-	 */
+	 */ 
 	public function getId()
 	{
 		return $this->id;
@@ -21,9 +22,9 @@ class Dog
 	/**
 	 * Set the value of id
 	 *
-	 * @return self
-	 */
-	public function setId($id) : self
+	 * @return  self
+	 */ 
+	public function setId($id)
 	{
 		$this->id = $id;
 
@@ -32,7 +33,7 @@ class Dog
 
 	/**
 	 * Get the value of nom
-	 */
+	 */ 
 	public function getNom()
 	{
 		return $this->nom;
@@ -41,9 +42,9 @@ class Dog
 	/**
 	 * Set the value of nom
 	 *
-	 * @return self
-	 */
-	public function setNom($nom) : self
+	 * @return  self
+	 */ 
+	public function setNom($nom)
 	{
 		$this->nom = $nom;
 
@@ -52,7 +53,7 @@ class Dog
 
 	/**
 	 * Get the value of age
-	 */
+	 */ 
 	public function getAge()
 	{
 		return $this->age;
@@ -61,9 +62,9 @@ class Dog
 	/**
 	 * Set the value of age
 	 *
-	 * @return self
-	 */
-	public function setAge($age) : self
+	 * @return  self
+	 */ 
+	public function setAge($age)
 	{
 		$this->age = $age;
 
