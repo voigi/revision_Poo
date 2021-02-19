@@ -20,6 +20,7 @@
 
 
         <label>Age</label>
+	<input type="number" name="age" /><br />
         <?php if (array_key_exists('errors', $_SESSION) && array_key_exists('age', $_SESSION['errors'])) {
 	  	?>
         <p style="color:red"> <?php echo  $_SESSION['errors']['age']?>
@@ -31,7 +32,7 @@
 	  }
 	  ?>
 
-        <input type="number" name="age" /><br />
+        
         <input type="submit" value="enregistrer">
 
     </form>
